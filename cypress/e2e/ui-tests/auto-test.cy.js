@@ -28,6 +28,7 @@ describe('Product', ()=>{
         //    cy.url().should('include', 'PersonalInfoPage.html')
         //    cy.wait(3000)
         //    cy.go('back')
+        cy.get()
 
         });
     })
