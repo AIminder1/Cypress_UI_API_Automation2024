@@ -21,6 +21,9 @@ describe('New Account Test', ()=>{
         cy.get('#zipCode').type('1312313')
         cy.get('select').eq(1).select('New Checking')
 
+
+        //making fun
+
     })
 
 })
