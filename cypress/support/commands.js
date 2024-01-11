@@ -29,3 +29,9 @@ Cypress.Commands.add('login', (username, password) => {
     cy.get('#password').type(password)
     cy.get('button').contains('Login').click()
 })
+
+Cypress.Commands.add('zeroLogin', (username, password) => {
+    cy.get('#user_login').type(username)
+    cy.get('#user_password').type(password)
+    cy.get("[name='submit']").click()
+})
