@@ -15,6 +15,8 @@ describe('Product', ()=>{
             //     cy.contains('Auto').should('be.visible').click({force: true} )
            
             // })
+
+            
             cy.get(".dropdown-content").eq(0).invoke('show'); // Show the dropdown content
            
 
